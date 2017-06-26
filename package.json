@@ -1,0 +1,27 @@
+{
+  "name": "bootstrap-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shuyzhou/bootstrap-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shuyzhou/bootstrap-example/issues"
+  },
+  "homepage": "https://github.com/shuyzhou/bootstrap-example#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.2"
+  },
+  "dependencies": {
+    "vue": "^2.3.4"
+  }
+}

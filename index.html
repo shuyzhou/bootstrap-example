@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Example</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+    body {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .nav-header {
+        margin-top: 2px;
+        position: relative;
+        display: block;
+        padding: 10px 15px;
+        color: #666;
+    }
+    .brc {
+        margin-top:20px; 
+        margin-bottom:20px; 
+        position: relative;
+        text-align: center;
+    }
+    .brd {
+        margin: 0;
+        padding: 10px;
+        background-color: #252830;
+        position: relative;
+        z-index: 2;
+        display: inline-block;
+    }
+    .brc:before {
+        position: absolute;
+        top: 50%;
+        display: block;
+        content: "";
+        width: 100%;
+        height: 1px;
+        background-color: #434857;
+    }
+    .axn {
+        float: right;
+    }
+    </style>
+  </head>
+  <body>
+  <div class="row">
+      <div class="col-md-2 col-md-offset-1">
+        <form class="form-inline">
+          <div class="form-group">
+            <label class="sr-only" for="Search">Search</label>
+            <div class="input-group">
+              <input type="text" class="form-control" id="Search" placeholder="Search...">
+              <span class="input-group-btn">
+                <button type="submit" class="bv btn btn-default">Go!</button>
+              <span>
+            </div>
+          </div>
+        </form>
+        <ul class="nav nav-pills nav-stacked">
+          <li class="nav-header">DASHBOARDS</li>
+          <li class="active"><a href="#overview"><i class="icon-chevron-right"></i>Overview</a></li>
+          <li><a href="#history"><i class="icon-chevron-right"></i>Order history</a></li>
+          <li><a href="#layout"><i class="icon-chevron-right"></i>Fluid layout</a></li>
+          <li><a href="#nav"><i class="icon-chevron-right"></i>Icon nav</a></li>
+          <li class="nav-header">MORE</li>
+          <li><a href="#overview"><i class="icon-chevron-right"></i>Toolkit docs</a></li>
+          <li><a href="#history"><i class="icon-chevron-right"></i>Bootstrap docs</a></li>
+          <li><a href="#layou"><i class="icon-chevron-right"></i>Light UI</a></li>
+          <li><a href="#nav"><i class="icon-chevron-right"></i>Example modal</a></li>
+        </ul>
+      </div>
+      <div class="col-md-8 col-md-offset-1">
+            <h1 class="page-header">DASHBOARDS<small>Overview</small></h1>
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-sm-8 col-md-offset-2">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
+                    </div>
+                </div>
+                <p class="text-center"><small>Traffic</small></p>
+                <p class="text-center">New vs Returning</p>
+              </div>
+              <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-sm-8 col-md-offset-2">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
+                    </div>
+                </div>
+                <p class="text-center"><small>Revenue</small></p>
+                <p class="text-center">New vs Returning</p>
+              </div>
+              <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-sm-8 col-md-offset-2">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
+                    </div>
+                </div>
+                <p class="text-center"><small>Traffic</small></p>
+                <p class="text-center">New vs Returning</p>
+              </div>
+            </div>
+            <div class="brc">
+                <h5 class="brd">QUICK STATS</h5>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="list-group">
+                      <li class="list-group-item">Countries</li>
+                      <li class="list-group-item">United States<span class="axn">62.4%</span></li>
+                      <li class="list-group-item">India<span class="bso axn">15.0%</span></li>
+                      <li class="list-group-item">United Kingdom<span class="bso axn">5.0%</span></li>
+                      <li class="list-group-item">Canada<span class="bso axn">5.0%</span></li>
+                    </ul>
+                    <a href="#" class="btn btn-default">All countries</a>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-group">
+                      <li class="list-group-item">Most visited pages</li>
+                      <li class="list-group-item">/ (Logged out)<span class="axn">3,929,481</span></li>
+                      <li class="list-group-item">/ (Logged in)<span class="bso axn">1,143,393</span></li>
+                      <li class="list-group-item">/tour<span class="bso axn">938,287</span></li>
+                      <li class="list-group-item">/features/something<span class="bso axn">749,393</span></li>
+                    </ul>
+                    <a href="#" class="btn btn-default">View all pages</a>
+                </div>
+            </div>
+      </div>
+  </div>
+  </body>
+</html>
